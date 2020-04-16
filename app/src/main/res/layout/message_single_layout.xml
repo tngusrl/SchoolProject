@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            // 보낸쪽지 받은쪽지
+
+            <TextView
+                android:id="@+id/Textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보낸쪽지"
+                android:textSize="20dp" />
+
+            // 시간
+
+            <TextView
+                android:id="@+id/Textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:text="08/10 15:35"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        // 메시지 내용
+
+        <TextView
+            android:id="@+id/Textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Textview"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
